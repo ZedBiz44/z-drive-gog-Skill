@@ -62,11 +62,11 @@ Date: 2026-09-05 | Prepared by: Manus | Status: Release Candidate, pilot pending
 
 | Field | Evidence |
 |---|---|
-| Structural validator result | Pending build validation. |
-| Platform validator result | Pending target-agent installation. |
+| Structural validator result | Repository and deployable package validation passed on 2026-09-05. |
+| Platform validator result | Pending target-agent installation and live GOG check. |
 | Trigger-test record | [pilot-test-record.md](pilot-test-record.md) |
 | Pilot result | Pending. |
-| Deployed commit or release | Pending. |
-| GitHub issue or change record | To be created at task completion. |
-| Notion operational summary | Requested z-Skills SOP database entry. |
+| Deployed commit or release | Initial published source commit `ff3dfcb`; final documentation commit pending. |
+| GitHub issue or change record | https://github.com/ZedBiz44/z-drive-gog-Skill/issues/1 |
+| Notion operational summary | https://app.notion.com/p/3d2a3e33d5818171a530f5aa9c573b86 |
 | Final approver and date | Pending Jack approval for pilot deployment and later wider rollout. |
