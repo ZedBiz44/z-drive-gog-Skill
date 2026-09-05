@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "id": "rootFolderA1",
+      "name": "Test Client Root",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": ["myDriveRootX"]
+    },
+    {
+      "id": "nestedFolderB2",
+      "name": "Reports",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": ["rootFolderA1"]
+    },
+    {
+      "id": "safeReportC3",
+      "name": "Test Monthly Report",
+      "mimeType": "application/pdf",
+      "parents": ["nestedFolderB2"],
+      "modifiedTime": "2026-09-05T00:00:00Z",
+      "trashed": false
+    },
+    {
+      "id": "safeShortcutD4",
+      "name": "Test Report Shortcut",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "parents": ["rootFolderA1"],
+      "shortcutDetails": {"targetId": "safeReportC3"},
+      "trashed": false
+    },
+    {
+      "id": "outsideFolderE5",
+      "name": "Outside Client",
+      "mimeType": "application/vnd.google-apps.folder",
+      "parents": ["myDriveRootX"]
+    },
+    {
+      "id": "outsideFileF6",
+      "name": "Outside Report",
+      "mimeType": "application/pdf",
+      "parents": ["outsideFolderE5"],
+      "modifiedTime": "2026-09-04T00:00:00Z",
+      "trashed": false
+    },
+    {
+      "id": "unsafeShortcutG7",
+      "name": "Unsafe Shortcut",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "parents": ["rootFolderA1"],
+      "shortcutDetails": {"targetId": "outsideFileF6"},
+      "trashed": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "accounts": {
+    "test-agent": {
+      "gog_account": "test-account"
+    }
+  },
+  "clients": {
+    "test-client": {
+      "root_type": "my_drive",
+      "shared_drive_id": null,
+      "client_root_folder_id": "rootFolderA1",
+      "archive_folder_id": "nestedFolderB2",
+      "template_ids": {
+        "proposal": "safeReportC3"
+      }
+    }
+  },
+  "runtime": {
+    "receipt_log": "/tmp/z-drive-gog-test-runtime/receipts.jsonl",
+    "cache_dir": "/tmp/z-drive-gog-test-runtime/cache"
+  }
+}
