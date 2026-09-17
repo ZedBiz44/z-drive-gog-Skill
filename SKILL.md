@@ -9,6 +9,14 @@ Use this Skill whenever a task needs a Google Drive artifact: a client document,
 
 Do not use this Skill for source code, agent configuration, Skills, scripts, Dockerfiles, or technical issue records. Put those in GitHub. Do not use this Skill for decisions, SOPs, planning, or status notes. Put those in Notion.
 
+## Naming and migration authority
+
+Use `z-files-folders` and its current approved folder map/guide for ZedBiz naming, placement and organization. This skill supplies GOG mechanics; its examples do not override that policy. Preserve this skill's account, ancestry, permissions and private-receipt controls.
+
+For migration or rehoming of existing material, copy first, verify the destination content and access, then archive the retained original only after verification. Never trash or delete the source as part of that workflow. A direct move is not a substitute for a verified copy. Keep sources in place if verification fails or the approved archive is unavailable. Ordinary renames and explicitly authorized routine moves outside migration remain available; resolve any conflict with the governing assignment before acting.
+
+Use the approved project-first filename, for example `example-client-safety-tips-smg-01.png`; do not impose a generic spaced/date naming scheme. Resolve a legacy registry's client fields to the explicitly assigned client, venture or project boundary without expanding it to the whole Shared Drive. If the naming or destination authority cannot be verified, prepare the proposal and hold the affected write.
+
 ## Start with the right context
 
 - Load the private runtime registry described in [runtime configuration](references/runtime-config.md). It supplies the approved account label, client code, client root folder ID, archive folder ID, template IDs, receipt-log location, and cache location. Do not store the live registry in this repository.
@@ -83,7 +91,7 @@ For every routine write, check the source and destination boundary, use the iden
 Read [operations](references/operations.md) before writing.
 
 - Prefer copying a configured template for recurring reports, proposals, audits, and client deliverables. Never edit the master template.
-- Name new files clearly: `Client - Deliverable - YYYY-MM-DD`, unless the current assignment provides a different required name.
+- Name new files using the current `z-files-folders` project-first naming rule (for example, `example-client-safety-tips-smg-01.png`), unless the current assignment provides a different required name.
 - Use `gog drive upload <localPath> --parent <folderId> --name <name>` for a new upload. Verify that the local path exists and is inside the approved task workspace before upload.
 - Use `gog drive mkdir <name> --parent <folderId>` for a new folder. Verify the returned folder ID and parent.
 - Use `gog drive copy <fileId> <newName> --parent <folderId>` for a template copy. Verify both source and new file IDs.
