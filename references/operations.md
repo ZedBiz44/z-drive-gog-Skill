@@ -2,6 +2,14 @@
 
 Read this file before creating, uploading, copying, renaming, moving, archiving, sharing, or trashing a Drive item. Use the installed GOG schema as the final command contract.
 
+## Naming and migration authority
+
+Use `z-files-folders` and its current approved folder map/guide for ZedBiz naming, placement and organization. This skill supplies GOG mechanics; its examples do not override that policy. Preserve this skill's account, ancestry, permissions and private-receipt controls.
+
+For migration or rehoming of existing material, copy first, verify the destination content and access, then archive the retained original only after verification. Never trash or delete the source as part of that workflow. A direct move is not a substitute for a verified copy. Keep sources in place if verification fails or the approved archive is unavailable. Ordinary renames and explicitly authorized routine moves outside migration remain available; resolve any conflict with the governing assignment before acting.
+
+Use the approved project-first filename, for example `example-client-safety-tips-smg-01.png`; do not impose a generic spaced/date naming scheme. Resolve a legacy registry's client fields to the explicitly assigned client, venture or project boundary without expanding it to the whole Shared Drive. If the naming or destination authority cannot be verified, prepare the proposal and hold the affected write.
+
 ## Preflight
 
 Before the first operation on an agent, after a GOG update, or when authentication fails:
@@ -33,7 +41,7 @@ Always use `--account "$ACCOUNT" --json --no-input --wrap-untrusted` unless an i
 ## Create and Upload Rules
 
 - Verify that a local upload file exists, is a regular file, and is inside the approved task workspace. Do not upload arbitrary system files, secret files, runtime registries, cache files, or logs.
-- Prefer a new file or a template copy. Name the new deliverable clearly, normally `Client - Deliverable - YYYY-MM-DD`.
+- Prefer a new file or a template copy. Name the new deliverable using the current `z-files-folders` project-first naming rule (for example, `example-client-safety-tips-smg-01.png`).
 - Do not alter a master template. Copy it first and work on the copy.
 - Use `--convert` or `--convert-to doc|sheet|slides` only when the current assignment explicitly asks for a Google-native file and the installed GOG schema supports the conversion.
 - Do not pass `--replace` unless overwrite approval has been obtained. If replacement is approved, use `--if-version <known-version>` when the installed schema supports it, then re-read the result. Stop on a version conflict.
