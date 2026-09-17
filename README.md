@@ -1,5 +1,7 @@
 # z-drive-gog Skill
 
+Follow `z-files-folders` for naming, placement and copy-first migrations. Direct move/archive/delete examples below do not authorize skipping copy verification or deleting migration sources. For migration: copy, verify, then archive the retained original; hold that item if verification or archive access is missing. Preserve the approved account, project boundary, permissions and receipts.
+
 `z-drive-gog` teaches ZedBiz AI agents how to use Google Drive properly with GOG. It covers the full client-file workflow: finding files, reading and exporting them, uploading new deliverables, creating folders, copying templates, renaming, moving, archiving, sharing, and recoverably trashing items.
 
 ## Purpose
