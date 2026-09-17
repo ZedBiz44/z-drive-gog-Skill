@@ -1,0 +1,62 @@
+{
+  "scope": "PR candidate; not installed or deployed",
+  "package": "z-drive-gog",
+  "files": [
+    {
+      "path": "assets/drive-receipt.json",
+      "sha256": "9f5a64207ab4054e20337fde071eb90ba43a91c0637ecf528a010db8d69c0954"
+    },
+    {
+      "path": "references/approval-rules.md",
+      "sha256": "28aaa53fd32030ccd8106ee5f7185a4d569aa95c2de263a98564387f6a01acd5"
+    },
+    {
+      "path": "references/failure-handling.md",
+      "sha256": "e64675a28afe7a3e88bda5d5530c81a10d984172984b49727e43d469408e29b7"
+    },
+    {
+      "path": "references/folder-boundary.md",
+      "sha256": "333b65a618a0bc28b61812280e0dd011a4c519cc663e4b60352edd8a4ff9e0e8"
+    },
+    {
+      "path": "references/gog-command-recipes.md",
+      "sha256": "bc8a1fd3131b8f7152cecf44df0a9345c02086a7b5b82e103ddabdd038eea63b"
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "df9438ee18c82910176b35b1718c6bedb8de9b3c9b83d0cbe65bb849af6518fb"
+    },
+    {
+      "path": "references/read-and-export.md",
+      "sha256": "0d6c89820048dffec44b559ef56192373300a08b571ac21a7229427f42784b23"
+    },
+    {
+      "path": "references/runtime-config.md",
+      "sha256": "c1292840d497ddcf65e95dd03b7776183badd7f03291df02909dec833f6eacdc"
+    },
+    {
+      "path": "references/search-cheatsheet.md",
+      "sha256": "62213e02b38360cd9b266980dcc7d361fe2fa544d8f684cee3e95a33ccfeaad0"
+    },
+    {
+      "path": "scripts/drive_guard.py",
+      "sha256": "5838ab61ee60224a4681066932661fe2773135879752bb0a3ce56799ec717bbb"
+    },
+    {
+      "path": "scripts/drive_preflight.py",
+      "sha256": "a169fe86627e58ef2f8048e9ef2e2ba75851d36c44b4d034f8cf78b5c17483f5"
+    },
+    {
+      "path": "scripts/drive_receipt.py",
+      "sha256": "2263023e6ddc659dc2efe22c5f30bd7e0d7cbfa789da7e9cdcaa93b8b8070760"
+    },
+    {
+      "path": "scripts/drive_resolve_target.py",
+      "sha256": "f8cfbd947890485076886d96fb575fc088cb56d5e71513d81634348fafd0bebd"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "3de6cd2edc5358df0fdda0f1df8d5ddd59265dba290231e78d8b074ff77b48a2"
+    }
+  ]
+}
