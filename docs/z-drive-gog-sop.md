@@ -1,5 +1,7 @@
 # z-drive-gog SOP
 
+Follow `z-files-folders` for naming, placement and copy-first migrations. Direct move/archive/delete examples below do not authorize skipping copy verification or deleting migration sources. For migration: copy, verify, then archive the retained original; hold that item if verification or archive access is missing. Preserve the approved account, project boundary, permissions and receipts.
+
 Date: 2026-09-05 | Author: Manus | Status: Release Candidate | Pilot Pending
 
 ## Purpose
@@ -36,7 +38,7 @@ Do not use it to save code, agent settings, skills, scripts, secrets, Dockerfile
 
 [AI Agent] Use a configured template for recurring reports, proposals, audits, and other regular deliverables. Copy the template first. Never edit the master template.
 
-[AI Agent] Name new work clearly, normally `Client - Deliverable - YYYY-MM-DD`. Create a new file by default. Do not silently replace an older report or proposal.
+[AI Agent] Name new work using the current `z-files-folders` project-first naming rule (for example, `example-client-safety-tips-smg-01.png`). Create a new file by default. Do not silently replace an older report or proposal.
 
 [AI Agent] Use the correct specialist skill after the Drive item is found. Use a Docs capability for documents, a Sheets capability for spreadsheet work, and a Slides capability for presentations. Save the final artifact in the approved client folder and verify it exists.
 
