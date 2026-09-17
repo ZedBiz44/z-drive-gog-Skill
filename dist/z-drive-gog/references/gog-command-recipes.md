@@ -1,5 +1,7 @@
 # GOG Command Recipes
 
+Follow `z-files-folders` for naming, placement and copy-first migrations. Direct move/archive/delete examples below do not authorize skipping copy verification or deleting migration sources. For migration: copy, verify, then archive the retained original; hold that item if verification or archive access is missing. Preserve the approved account, project boundary, permissions and receipts.
+
 Use these as patterns. Before executing a command, check `gog schema --json` on the target agent because installed GOG versions may differ. Set `ACCOUNT` from the private runtime registry. Use `--json --no-input --wrap-untrusted` for agent execution.
 
 ## Inspect and Search

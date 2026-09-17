@@ -1,5 +1,7 @@
 # Approval Rules
 
+Follow `z-files-folders` for naming, placement and copy-first migrations. Direct move/archive/delete examples below do not authorize skipping copy verification or deleting migration sources. For migration: copy, verify, then archive the retained original; hold that item if verification or archive access is missing. Preserve the approved account, project boundary, permissions and receipts.
+
 The current assignment authorizes routine, reversible work inside the approved client-folder boundary. Do not ask a second time for every normal upload, folder, template copy, rename, in-client move, archive, or export needed to complete that assignment.
 
 ## Routine Work
